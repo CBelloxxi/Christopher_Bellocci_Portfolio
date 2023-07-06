@@ -1,4 +1,0 @@
-[build]
-command = "next build && next start"
-publish = "/opt/build/repo/.next"
-NODE_OPTIONS = "--openssl-legacy-provider"
