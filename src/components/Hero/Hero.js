@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         I'm a Full Stack Developer specialising in languages such as; <br /> HTML, CSS, Javascript and Ruby. Including their frameworks like React, Node and Rails. I'm also Freelancer, Entrepreneur and Sales Enthusiast.
       </SectionText>
-      <Button onClick={() => window.location = "https://www.linkedin.com/in/cbellocci/" }>Lets Connect</Button>
+      <Button onClick={() => window.open('https://www.linkedin.com/in/cbellocci/', '_blank')}>Let's Connect</Button>
     </LeftSection>
   </Section>
 );
