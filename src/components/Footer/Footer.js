@@ -3,10 +3,15 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
 
 const Footer = () => {
   return (
     <FooterWrapper>
+      <SectionDivider></SectionDivider>
+      <br /><br />
+      <SectionTitle>Get in Touch</SectionTitle>
+      <br/>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -19,7 +24,7 @@ const Footer = () => {
       </LinkList>
       <SocialContainer>
         <CompanyContainer>
-          <Slogan>Be a rainbow in someone else's cloud.</Slogan>
+          <Slogan>Be a rainbow in someone else's cloud 🌈.</Slogan>
         </CompanyContainer>
         <SocialIconsContainer>
           <SocialIcons href="https://github.com/cbelloxxi">

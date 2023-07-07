@@ -9,12 +9,13 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Hey 👋🏽 there! <br />
-        My names Christopher Bellocci. <br />
+        My name is <br /> Christopher Bellocci.
       </SectionTitle>
       <SectionText>
-        I'm a Full Stack Developer specialising in languages such as; <br /> HTML, CSS, Javascript and Ruby. Including their frameworks like React, Node and Rails. I'm also Freelancer, Entrepreneur and Sales Enthusiast.
+        I'm a Full Stack Developer specialising in languages & frameworks like; HTML, CSS, Javascript, Ruby, Reactjs, Nextjs, Nodejs and Ruby on Rails. <br /><br /> I'm also a Freelancer, Entrepreneur and Sales Enthusiast.
       </SectionText>
       <Button onClick={() => window.open('https://www.linkedin.com/in/cbellocci/', '_blank')}>Let's Connect</Button>
+      <br />
     </LeftSection>
   </Section>
 );

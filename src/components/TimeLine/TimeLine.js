@@ -47,15 +47,17 @@ const Timeline = () => {
       <SectionDivider/>
       <br/><br/>
       <SectionTitle>About Me</SectionTitle>
+      <br />
       <SectionText>
-        Full Stack Developer with strong technical skills in languages such as; HTML, CSS, Javascript and Ruby.   Including their frameworks such as React, Node and Rails.
+        I'm a born and bred Londoner through and through. I love Beer, Pizza, 90's HipHop, Cars, Bikes and anything with an engine. But, I also have passion for Social Change, Entreprenuerialism, Technology and Coding too. That's why I chose to Career Switch and become a Full Stack Dev. I did it to follow my passions and to hopefully combine them all one day.
         <br/><br/>
-        Builds include Create-React-App, Express and reusable components. Knowledge of FireDB and MongoDB. Version Control using Git and Hosting using Heroku and Netlify.
+        I have experience in B2C and B2B Sales, I'm a natural people person. Native English speaker, and Fluent in Italian. I create lasting connections with everyone I meet, and I am hardworking by nature. I'm friendly, have an attentive demeanour, willing to learn quickly and can take constructive criticism in my stride.
         <br/><br/>
-        Experience in B2C and B2B Sales, a natural people person. Native English speaker, and Fluent in Italian. Creates lasting connections with everyone I meet, hardworking by nature. Friendly, attentive demeanour, willing to learn quickly and to take constructive criticism in my stride.
+        Some of my builds include Create-React-App, Express and reusable components. Knowledge of FireDB and MongoDB. Version Control using Git and Hosting using Heroku, Netlify and Vercel. I believe that the tech you use is just a tool to get a job done. So, anything I do not know I am willing to learn, and I learn fast.
         <br/><br/>
-        Currently, I am expanding my skill set through self-teaching and building MERN Stack Projects. I aim to achieve the best results in every role, I also believe my ability to work independently, adaptability and eagerness to learn make me a valuable addition to any team.
+        Currently, I am expanding my skill set through self-teaching and building MERN Stack Projects. I aim to achieve the best results in every role. I also believe my ability to work independently, adapt and eagerness to learn, makes me a valuable addition to any team.
         </SectionText>
+        <br/>
         <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
           <>
             {TimeLineData.map((item, index) => (

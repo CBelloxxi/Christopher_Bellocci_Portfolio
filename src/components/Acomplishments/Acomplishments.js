@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { text: 'BA in International Business Graduate', },
+  { text: 'BA in International Business', },
   { text: 'Le Wagon London Bootcamp Graduate'},
   { text: 'Changemaker of the Year Nomination', },
   { text: 'SocialXChange Award', },
@@ -13,6 +13,7 @@ const data = [
 
 const Accomplishments = () => (
   <Section id="accomplishments">
+    <br />
     <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
       {data.map((card,index) => (
