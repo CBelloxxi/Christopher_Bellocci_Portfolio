@@ -23,7 +23,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Day Rate</LinkTitle>
-          <LinkItem>From £300p/d+</LinkItem>
+          <LinkItem>From £350p/d+ negotiable</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialContainer>
