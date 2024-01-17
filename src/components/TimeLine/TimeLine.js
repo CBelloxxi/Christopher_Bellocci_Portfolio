@@ -53,7 +53,7 @@ const Timeline = () => {
         <br/><br/>
         I have experience in B2C and B2B Sales, I'm a natural people person. Native English speaker, and Fluent in Italian. I create lasting connections with everyone I meet, and I am hardworking by nature. I'm friendly, have an attentive demeanour, willing to learn quickly and can take constructive criticism in my stride.
         <br/><br/>
-        Some of my builds include Create-React-App, Express and reusable components. Knowledge of FireDB and MongoDB. Version Control using Git and Hosting using Heroku, Netlify and Vercel. I believe that the tech you use is just a tool to get a job done. So, anything I do not know I am willing to learn, and I learn fast.
+        Some of my builds include Next JS, Create-React-App, Express, Google API and reusable components. Knowledge of FireDB and MongoDB. Version Control using Git and Hosting using Heroku, Netlify and Vercel. I believe that the tech you use is just a tool to get a job done. So, anything I do not know I am willing to learn, and I learn fast.
         <br/><br/>
         Currently, I am expanding my skill set through self-teaching and building MERN Stack Projects. I aim to achieve the best results in every role. I also believe my ability to work independently, adapt and eagerness to learn, makes me a valuable addition to any team.
         </SectionText>

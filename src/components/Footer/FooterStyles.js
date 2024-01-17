@@ -119,6 +119,7 @@ export const SocialContainer = styled.div`
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
+  justify-content: space-between;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 40px;
   padding: 40px 0 28px;
@@ -144,6 +145,7 @@ export const LinkColumn = styled.div`
 	flex-direction: column;
 	max-width: 220px;
 	width: 100%;
+  justify-content: space-between;
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;

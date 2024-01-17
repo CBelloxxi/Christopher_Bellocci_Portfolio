@@ -21,6 +21,10 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:christopher.bellocci@hotmail.com">christopher.bellocci@hotmail.com</LinkItem>
         </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Day Rate</LinkTitle>
+          <LinkItem>From £300p/d+</LinkItem>
+        </LinkColumn>
       </LinkList>
       <SocialContainer>
         <CompanyContainer>

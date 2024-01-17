@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Promptopia App',
+    description: "Built a Modern UI/UX using Next JS, React JS, TailwindCSS, MongoDB, Mongoose, Google Cloud Api. It encompasses all modern UX Practices, follows a stringent and well-organised File Structure, uses React Functional components to create components, Tailwind for styling, and Next JS for Client/Server side rendering, serverless route handling, metadata, SEO.",
+      image: '/images/promptopia.png',
+      tags: ['Next', 'React', 'TailwindC', 'Vite', 'Vercel'],
+    source: 'https://github.com/CBelloxxi/Promptopia',
+    visit: 'https://promptopia-xi-ten.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'HooBank App',
     description: "Built with a Modern UI/UX using Vite, React JS and Tailwind CSS. It encompasses all modern UX Practices, follows a stringent and well-organised File Structure, uses React Functional components to create reusable card components and tailwindcss for all styling, Vite has been used as the bundler for this build. Netlify has also been used for free hosting.",
       image: '/images/hoobank.png',
@@ -42,5 +51,6 @@ export const TimeLineData = [
   { year: 2020, text: 'Continued studying & working. Changemaker Ambassador, recognised & represented my Uni as Ambassador for in Social Change.', },
   { year: 2021, text: 'Graduated with 1st Class w/Honours, worked at EmpowerRD as an SDR, from Summer to Winter 2021. Left Job start of 2022.', },
   { year: 2022, text: 'Completed Le Wagon 9-Week Web Dev Bootcamp, continued self-teaching MERN Stack. Created a small start-up called Friendy.', },
-  { year: 2023, text: 'Developed multiple ecom sites. Continued Entrepreneur route & Freelancing, decided to get a professional role as a Developer.', },
+  { year: 2023, text: 'Developed multiple ecom sites. Continued Entrepreneur route & Contracted as Junior Frontend Developer @ Journeo.', },
+  { year: 2024, text: 'Currently in search of Full Stack or Frontend Developer Role, Studying Harvard CS50 & building lots of Next / React JS projects.', },
 ];

@@ -12,7 +12,7 @@ const Hero = (props) => (
         My name is <br /> Christopher Bellocci.
       </SectionTitle>
       <SectionText>
-        I'm a Full Stack Developer specialising in languages & frameworks like; HTML, CSS, Javascript, Ruby, Reactjs, Nextjs, Nodejs and Ruby on Rails. <br /><br /> I'm also a Freelancer, Entrepreneur and Sales Enthusiast.
+        I'm a Full Stack Developer, Front End Focused specialising in languages & frameworks like; HTML, CSS, Javascript, Ruby, Reactjs, Nextjs, Nodejs and Ruby on Rails. <br /><br /> I'm also a Contractor, Freelancer, Solopreneur and Sales Enthusiast.
       </SectionText>
       <Button onClick={() => window.open('https://www.linkedin.com/in/cbellocci/', '_blank')}>Let's Connect</Button>
       <br />
