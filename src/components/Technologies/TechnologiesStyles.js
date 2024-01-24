@@ -8,8 +8,8 @@ export const ImageContainer = styled.div`
   margin-top: 48px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  // align-items: center;
+  // justify-content: center;
 
   @media ${props => props.theme.breakpoints.lg} {
     background-image: none;
@@ -116,14 +116,20 @@ export const ListItem = styled.li`
 
 export const ListIcon = styled.img`
   display: block;
-  width: 48px;
-  height: 48px;
+  width: 58px;
+  height: 58px;
   margin-bottom: 10px;
 
   @media ${props => props.theme.breakpoints.md}{
     width: 40px;
     height: 40px;
     margin-bottom: 8px;
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 0px;
   }
 
   @media ${props => props.theme.breakpoints.sm}{

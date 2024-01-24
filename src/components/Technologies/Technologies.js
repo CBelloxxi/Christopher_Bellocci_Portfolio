@@ -1,7 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiPhotoshop, DiTerminal } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListIcon } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -32,11 +32,11 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiPhotoshop size="4rem"/>
+      <DiPhotoshop size="4rem"/>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>UI and UX</ListTitle>
           <ListParagraph>
-            Experience with <br/> Figma, Miro, Canva & Adobe.
+            Experience with <br/> Figma, Miro, Canva & Adobe. Have created builds from Figma Graphics from Conception to completion.
           </ListParagraph>
         </ListContainer>
       </ListItem>
