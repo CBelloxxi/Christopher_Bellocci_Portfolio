@@ -14,12 +14,12 @@ const Footer = () => {
       <br/>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="Mobile: 07403787977">07403787977</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:christopher.bellocci@hotmail.com">christopher.bellocci@hotmail.com</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Call</LinkTitle>
+          <LinkItem href="Mobile: 07403787977">Mobile: 07403787977</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Day Rate</LinkTitle>
